@@ -95,7 +95,7 @@ public class Main {
         }
 
         System.out.println("___Задача №7___");
-        int one = -60 ;
+        int one = -80 ;
         int two = 50 ;
         int three = 10 ;
         boolean greatestNumber = one > two && one > three;
