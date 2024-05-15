@@ -1,23 +1,23 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("  Задача №1");
+        System.out.println("____Задача №1_____");
         int age = 19;
         if (age >= 18) {
-            System.out.println("Человеку 18 лет или больше");
+            System.out.println(" Человеку 18 лет или больше ");
         } else {
             System.out.println("Возраст совершеннолетия еще не наступил, нужно немного одождать");
         }
 
-        System.out.println("  Задача №2");
-        int temperature = 1;
+        System.out.println("_____Задача №2_____");
+        int temperature = 2;
         if (temperature < 5) {
             System.out.printf("На улице %s градусов, нужно надеть шапку %n", temperature);
         } else {
             System.out.printf("На улице %s градусов, можно идти без шапки %n", temperature);
         }
 
-        System.out.println("  Задача №3");
-        int speed = 57;
+        System.out.println("_____Задача №3_____");
+        int speed = 68;
         if (speed > 60) {
             System.out.printf("Если скорость %s , то придется заплатить штраф %n", speed);
         }
@@ -25,8 +25,8 @@ public class Main {
             System.out.printf("Если скорость %s, то можно ездить спокойно %n", speed);
         }
 
-        System.out.println("  Задача №4");
-        int Age = 7;
+        System.out.println("_____Задача №4_____");
+        int Age = 9;
 
         boolean canGoToKindergarten = Age >=2 && Age <=6;
         if (canGoToKindergarten) {
@@ -48,10 +48,10 @@ public class Main {
             System.out.printf("Если возраст человека равен %s, то ему нужно ходить на работу %n", Age);
         }
 
-        System.out.println("  Задача №5");
+        System.out.println("_____Задача №5_____");
 
-        int Age2 = 18;
-        int presenceOfAnAdult = 0;
+        int Age2 = 12;
+        int presenceOfAnAdult = 0; //1-есть взрослые 0-ребенок пришел без взрослых
 
 
         boolean canRidOnTheAmusementRide = Age2 < 5 ;
@@ -75,7 +75,7 @@ public class Main {
         int maxSeatingAreas = 60;
         int maxStandingRoom = capacityOfOneTrainCar - maxSeatingAreas;
 
-        int numberOfOccupiedSeats = 30;
+        int numberOfOccupiedSeats = 27;
         int numberOfOccupiedStandingPlaces = 42;
 
         int freeStandingPlaces = maxStandingRoom - numberOfOccupiedStandingPlaces;
@@ -96,7 +96,7 @@ public class Main {
 
         System.out.println("___Задача №7___");
         int one = -80 ;
-        int two = 50 ;
+        int two = 30 ;
         int three = 10 ;
         boolean greatestNumber = one > two && one > three;
         if (greatestNumber) {
